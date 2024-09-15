@@ -1,4 +1,4 @@
-import { appleImg } from "../utils";
+import { appleImg, searchImg } from "../utils";
 
 const Navbar = () => {
   return (
@@ -10,6 +10,10 @@ const Navbar = () => {
           {["Phones", "Macbooks", "Tablets"].map((nav) => (
             <div key={nav}>{nav}</div>
           ))}
+        </div>
+
+        <div>
+          <img src={searchImg} alt="Search" width={18} height={18} />
         </div>
       </nav>
     </header>
