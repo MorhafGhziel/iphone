@@ -1,4 +1,5 @@
 import { appleImg, searchImg, bagImg } from "../utils";
+import { navLists } from "../constants";
 
 const Navbar = () => {
   return (
@@ -6,8 +7,8 @@ const Navbar = () => {
       <nav className="flex w-full screen-max-width">
         <img src={appleImg} alt="Apple" width={14} height={18} />
 
-        <div className="flex flex-1 justify-center max-sm:hidden">
-          {["Phones", "Macbooks", "Tablets"].map((nav) => (
+        <div className="flex flex-1 justify-center max-sm:hidden ">
+          {navLists.map((nav) => (
             <div key={nav}>{nav}</div>
           ))}
         </div>
