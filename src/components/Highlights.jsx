@@ -3,7 +3,9 @@ const Highlights = () => {
     <section
       id="highlights"
       className="w-screen overflow-hidden h-full common-padding bg-zinc"
-    ></section>
+    >
+      <div></div>
+    </section>
   );
 };
 
