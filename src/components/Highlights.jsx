@@ -25,7 +25,7 @@ const Highlights = () => {
           </h1>
 
           <div className="flex flex-wrap items-end gap-5">
-            <p></p>
+            <p>Watch the film</p>
           </div>
         </div>
       </div>
