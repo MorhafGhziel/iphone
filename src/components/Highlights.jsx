@@ -1,4 +1,8 @@
+import { useGSAP } from "@gsap/react";
+
 const Highlights = () => {
+  useGSAP(() => {});
+
   return (
     <section
       id="highlights"
