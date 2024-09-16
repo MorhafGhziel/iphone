@@ -23,6 +23,8 @@ const Highlights = () => {
           <h1 id="title" className="section-heading">
             Get the highlights.
           </h1>
+
+          <div></div>
         </div>
       </div>
     </section>
