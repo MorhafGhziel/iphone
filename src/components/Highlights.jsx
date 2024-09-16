@@ -15,6 +15,8 @@ const Highlights = () => {
     gsap.to(".link", {
       opacity: 1,
       y: 0,
+      duration: 1,
+      stagger: 0.25,
     });
   });
 
