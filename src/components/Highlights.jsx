@@ -5,7 +5,9 @@ const Highlights = () => {
       className="w-screen overflow-hidden h-full common-padding bg-zinc"
     >
       <div className="screen-max-width">
-        <div></div>
+        <div>
+          <h1></h1>
+        </div>
       </div>
     </section>
   );
