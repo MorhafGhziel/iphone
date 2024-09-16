@@ -1,5 +1,5 @@
 const Highlights = () => {
-  return <section></section>;
+  return <section id="highlights"></section>;
 };
 
 export default Highlights;
