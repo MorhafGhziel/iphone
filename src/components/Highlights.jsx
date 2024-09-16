@@ -1,6 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { watchImg } from "../utils";
+import { watchImg, rightImg } from "../utils";
 
 const Highlights = () => {
   useGSAP(() => {
