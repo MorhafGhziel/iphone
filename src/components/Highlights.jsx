@@ -35,7 +35,7 @@ const Highlights = () => {
               <img src={watchImg} alt="watch" className="ml-2" />
             </p>
             <p className="link">
-              Watch the film
+              Watch the event
               <img src={watchImg} alt="watch" className="ml-2" />
             </p>
           </div>
