@@ -24,7 +24,9 @@ const Highlights = () => {
             Get the highlights.
           </h1>
 
-          <div className="flex flex-wrap items-end gap-5"></div>
+          <div className="flex flex-wrap items-end gap-5">
+            <p></p>
+          </div>
         </div>
       </div>
     </section>
