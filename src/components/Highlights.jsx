@@ -12,6 +12,10 @@ const Highlights = () => {
       },
       []
     );
+    gsap.to(".link", {
+      opacity: 1,
+      y: 0,
+    });
   });
 
   return (
