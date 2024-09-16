@@ -34,6 +34,10 @@ const Highlights = () => {
               Watch the film
               <img src={watchImg} alt="watch" className="ml-2" />
             </p>
+            <p className="link">
+              Watch the film
+              <img src={watchImg} alt="watch" className="ml-2" />
+            </p>
           </div>
         </div>
       </div>
