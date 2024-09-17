@@ -1,12 +1,15 @@
-import highlightSlides from "../constants";
-import React from "react";
+import { hightlightsSlides } from "../constants";
 
 const VideoCarousel = () => {
   return (
     <>
-      <div className="flex items-center">{highlightSlides.map((list, i) => (
-
-      ))}</div>
+      <div className="flex items-center">
+        {hightlightsSlides.map((test) => (
+          <div key={test.id} id="slider">
+            <div className="video-carousel_container">Test</div>
+          </div>
+        ))}
+      </div>
     </>
   );
 };
