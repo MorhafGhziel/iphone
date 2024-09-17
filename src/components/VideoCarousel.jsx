@@ -1,5 +1,11 @@
+import highlightSlides from "../constants";
+
 const VideoCarousel = () => {
-  return <div>VideoCarousel</div>;
+  return (
+    <>
+      <div className="flex items-center">{highlightSlides}</div>
+    </>
+  );
 };
 
 export default VideoCarousel;
