@@ -23,6 +23,10 @@ const VideoCarousel = () => {
 
     if (span[videoId]) {
       // animate the progress of the video
+      let anim = gsap.to(span[videoId], {
+        onUpdate: () => {},
+        onComplete: () => {},
+      });
     }
   }, [videoId, startPlay]);
   return (
