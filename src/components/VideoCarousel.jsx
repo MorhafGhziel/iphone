@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { hightlightsSlides } from "../constants";
+import gsap from "gsap";
 
 const VideoCarousel = () => {
   const videoRef = useRef([]);
@@ -16,7 +17,14 @@ const VideoCarousel = () => {
 
   const { isEnd, startPlay, videoId, isLastVideo, isPlaying } = video;
 
-  useEffect(() => {});
+  useEffect(() => {
+    const currentProgress = 0;
+    let span = videoSpanRef.current;
+
+    if (span[videoId]) {
+      // animate the progress of the video
+    }
+  }, [videoId, startPlay]);
   return (
     <>
       <div className="flex items-center">
