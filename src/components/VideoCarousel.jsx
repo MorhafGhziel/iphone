@@ -8,11 +8,13 @@ const VideoCarousel = () => {
 
   const [video, SetVideo] = useState({
     isEnd: false,
-    startPlat: false,
+    startPlay: false,
     videoId: 0,
     isLastVideo: false,
     isPlaying: false,
   });
+
+  const { isEnd, startPlay, videoId, isLastVideo, isPlaying } = video;
   return (
     <>
       <div className="flex items-center">
