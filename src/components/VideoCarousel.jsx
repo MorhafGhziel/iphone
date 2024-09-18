@@ -6,6 +6,13 @@ const VideoCarousel = () => {
   const videoSpanRef = useRef([]);
   const videoDivRef = useRef([]);
 
+  const [video, SetVideo] = useState({
+    isEnd: false,
+    startPlat: false,
+    videoId: 0,
+    isLastVideo: false,
+    isPlaying: false,
+  });
   return (
     <>
       <div className="flex items-center">
